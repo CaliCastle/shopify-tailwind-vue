@@ -2,14 +2,8 @@
   "name": "slate-tailwind-vue",
   "version": "1.0.0",
   "private": true,
-  "author": "Shopify Inc., Rob Mellett",
-  "description": "A starter project for Shopify, using Vue.js and Tailwindcss 1.0",
-  "keywords": [
-    "shopify",
-    "theme",
-    "tailwindcss",
-    "vue"
-  ],
+  "author": "Shopify Inc., Cali Castle",
+  "description": "A starter project for Shopify, using Vue.js and Tailwindcss",
   "scripts": {
     "mkcert": "bash generate-ssl-cert.sh",
     "start": "slate-tools start",
@@ -19,13 +13,10 @@
     "zip": "slate-tools build && slate-tools zip",
     "tailwind": "postcss src/styles/theme.scss -o dist/assets/tailwind.css"
   },
-  "engines": {
-    "node": "~11.14"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/robmellett/shopify-tailwind-vue.git"
+    "url": "https://github.com/calicastle/shopify-tailwind-vue.git"
   },
   "dependencies": {
     "vue": "^2.6.10",
@@ -34,7 +25,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
-    "@shopify/slate-tools": "^1.0.0-beta.18",
+    "@shopify/slate-tools": "^1.0.0-beta.19",
     "autoprefixer": "^9.6.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -48,7 +39,7 @@
     "postcss-cli": "^6.1.2",
     "postcss-import": "^12.0.1",
     "postcss-url": "^8.0.0",
-    "tailwindcss": "^1.0.1",
+    "tailwindcss": "^1.1",
     "vue-loader": "^15.7.1",
     "vue-template-compiler": "^2.6.10"
   }
